@@ -1,17 +1,20 @@
 body {
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
     color: #434455;
+    background-color: #ffffff;
+    width: 1440px;
+    height: 3300px;
 }
 ul {
     list-style-type:  none;
 }
 .logo {
     text-decoration:  none;
-    font-family:'Raleway';
+    font-family:'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -48,8 +51,8 @@ color: #2E2F42;
 h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
 }
@@ -57,7 +60,7 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5ae5;
     border-radius: 4px;
@@ -65,9 +68,13 @@ h1 {
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 .button-hero:hover {
     background-color: #404BBF;
+}
+.button-hero:focus{
+    background-color: #404BBF
 }
 .feature-title {
     color: #2E2F42;
