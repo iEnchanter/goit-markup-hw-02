@@ -58,6 +58,9 @@ color: #2E2F42;
 .address--link:focus {
     color: #434455;
 }
+.address--link:active {
+    color: #434455;
+}
 .section-hero {
     background-color: #2e2f42;
 }
@@ -96,16 +99,22 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     color: #2E2F42;
 }
 h3 {
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 24px;
     color: #2E2F42;
+}
+.section-team {
+    background-color: #F4F4FD;
+}
+.our-team {
+    text-transform: capitalize;
 }
 .name {
     text-align: center;
