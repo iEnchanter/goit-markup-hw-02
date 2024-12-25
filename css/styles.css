@@ -56,10 +56,7 @@ color: #2E2F42;
     color: #404BBF;
 }
 .address--link:focus {
-    color: #434455;
-}
-.address--link:active {
-    color: #434455;
+    color: #404bbf;
 }
 .section-hero {
     background-color: #2e2f42;
@@ -116,10 +113,19 @@ h3 {
 .our-team {
     text-transform: capitalize;
 }
+.our-portfolio-group {
+    background-color: #FFFFFF
+}
 .name {
     text-align: center;
 }
 .text-description {
     text-align: center;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.footer {
+    background-color: #2e2f42;
+}
+.footer-text {
+    color: #F4F4FD;
 }
