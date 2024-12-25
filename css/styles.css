@@ -6,8 +6,6 @@ body {
     letter-spacing: 0.02em;;
     color: #434455;
     background-color: #ffffff;
-    width: 1440px;
-    height: 3300px;
 }
 ul {
     list-style-type:  none;
@@ -74,11 +72,6 @@ h1 {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5ae5;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 .button-hero:hover {
@@ -111,11 +104,11 @@ h3 {
 .our-team {
     text-transform: capitalize;
 }
-.team {
+.teamcard {
     background-color: #FFFFFF;
 }
 .our-portfolio-group {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .name {
     text-align: center;
